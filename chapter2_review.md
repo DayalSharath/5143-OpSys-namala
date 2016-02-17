@@ -7,11 +7,11 @@ Date: 01 APR 92
 
  An operating system is a program that controls the execution of application programs and acts as an interface between the user of a computer and the computer hardware.
 Three Objectives can be observed:
- >Convenience - OS as a user/computer interface (Usability)
+ >_Convenience_ - OS as a user/computer interface (Usability)
  
- >Efficiency - OS as resource manager (Scalability)
+ >_Efficiency_ - OS as resource manager (Scalability)
  
- >Ability to evolve - Evolution of OS (Maintainability)
+ >_Ability to Evolve_ - Evolution of OS (Maintainability)
 
 #### 2. What is the kernel of an OS?
 
@@ -51,5 +51,7 @@ Operating system does the following activities related to multiprogramming.
 #### 3. What is a process?
 
  The Program under execution is called a **Process**. For example, A time-shared user program such as a compiler is a process or a word-processing program being run by an individual user on a PC can be a process. A system task, such as sending output to a printer, can also be a process.
+ 
+ A process is the unit of work in a system. Such a system consists of a collection of processes, some of which are operating-system processes (those that execute system code) and the rest of which are user processes (those that execute user code).
  
 
