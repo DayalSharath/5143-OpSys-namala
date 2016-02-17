@@ -122,10 +122,16 @@ Multi Threading is the ability of an OS to support multiple, concurrent paths of
 
 #### 11. List the key design issues for an SMP operating system.
 
- >Key design issues for an SMP Operating System
+Key design issues for an SMP Operating System
+
    >1. Concurrent Process / Threads 
+        * 
+        
    >2. Scheduling
-   >3. Synchronization 
+   
+   >3. Synchronization
+   
    >4. Memory Management
+   
    >5. Reliability / Fault Tolerance
 
