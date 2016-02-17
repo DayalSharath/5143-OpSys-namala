@@ -112,3 +112,13 @@ An image describing the algorithm is attached below.
 
 ![Round Robin Algorithm](https://i.ytimg.com/vi/GjrxO-PDPdk/hqdefault.jpg)
 
+#### 9. Explain the difference between a monolithic kernel and a microkernel.
+
+
+
+#### 10. What is multithreading?
+
+Multi Threading is the ability of an OS to support multiple, concurrent paths of execution within a single process. Single thread approach is seen in MS-DOS which supports a single user process and a single thread. Some UNIX, support multiple user processes but only support one thread per process. Multithreading is basically seen in Java run-time environment which is a single process with multiple threads system.
+
+#### 11. List the key design issues for an SMP operating system.
+
