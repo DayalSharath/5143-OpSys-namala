@@ -5,7 +5,7 @@ Date: 01 APR 92
 
 #### 1. What are three objectives of an OS design?
 
-An operating system is a program that controls the execution of application programs and acts as an interface between the user of a computer and the computer hardware.
+ An operating system is a program that controls the execution of application programs and acts as an interface between the user of a computer and the computer hardware.
 Three Objectives can be observed:
  >Convenience - OS as a user/computer interface (Usability)
  
@@ -17,7 +17,7 @@ Three Objectives can be observed:
 
 A kernel is the part of the operating system that mediates access to system resources. It's responsible for enabling multiple applications to effectively share the hardware by controlling access to CPU, memory, disk I/O, and networking.
 
-An operating system is the kernel plus applications that enable users to get something 
+ An operating system is the kernel plus applications that enable users to get something 
 done (i.e., compiler, text editor, window manager, etc.).
 The types of kernels are 
  >Monolithic kernels
@@ -27,5 +27,15 @@ The types of kernels are
  >Monolithic kernels vs. microkernels
  
  >Hybrid (or Modular) kernels
+ 
+####3. What is multiprogramming?
+ 
+ When two or more programs are residing in memory for execution at the same time, then sharing the resources to the processes is referred to as the multiprogramming. Multiprogramming assumes a single shared processor and increases CPU utilization by organizing jobs so that the CPU always has one program to execute at every time the program which contains multiple programs is executed.
+
+Operating system does the following activities related to multiprogramming.
+ The operating system keeps several jobs in memory at a time.
+ This set of jobs has all of the jobs kept in the job pool.
+ The operating system picks and begins to execute one of the job in the memory and executes it.
+
  
 
