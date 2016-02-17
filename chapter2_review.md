@@ -36,6 +36,7 @@ Operating system does the following activities related to multiprogramming.
  >The operating system keeps several jobs in memory at a time.
  
  >This set of jobs has all of the jobs kept in the job pool.
+ 
  >The operating system picks and begins to execute one of the job in the memory and executes it.
  
  Multiprogramming operating system monitors the state of all active programs and system resources using memory management programs to ensures that the CPU is never idle unless there are no jobs
@@ -43,6 +44,7 @@ Operating system does the following activities related to multiprogramming.
 *Advantages:*
 
 >High and efficient CPU utilization.
+
 >User feels that many programs are allotted CPU almost simultaneously.
 
 *Disadvantages:*
@@ -77,9 +79,16 @@ Operating system does the following activities related to multiprogramming.
 The five storage management responsibilities of Operating System are as follows.
 
  >**Process isolation:** The OS must prevent independent processes from interfering with each other’s memory, both data and instructions.
+ 
 >**Automatic allocation and management:** Programs should be dynamically allocated across the memory hierarchy as required. Allocation should be transparent to the programmer. Thus, the programmer is relieved of concerns relating to memory limitations, and the OS can achieve efficiency by assigning memory to jobs only as needed.
+
  >**Support of modular programming:** Programmers should be able to define program modules, and to create, destroy, and alter the size of modules dynamically. 
+ 
  >**Protection and access control:** Sharing of memory, at any level of the memory hierarchy, creates the potential for one program to address the memory space of another. This is desirable when sharing is needed by particular applications. At other times, it threatens the integrity of programs and even the OS itself. The OS must allow portions of memory to be accessible in various ways by various users.
+ 
  >**Long-term storage:** Many applications programs require means for storing information for extended periods of time, after the computer has been powered down.
+
+#### 7. Explain the distinction between a real address and a virtual address.
+
 
 
