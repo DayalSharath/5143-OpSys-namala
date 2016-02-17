@@ -102,4 +102,13 @@ The five storage management responsibilities of Operating System are as follows.
 
 #### 8. Describe the round-robin scheduling technique.
 
+**Round robin** is the scheduling algorithm used by the CPU during execution of the process. Round robin is designed specifically for time sharing systems. It is similar to *first come first serve scheduling algorithm* but the _pre-emption_ is the added functionality to switch between the processes .
+
+Round robin algorithm is simple and easy to implement. The name round robin comes from the principle known as round robin in which every person takes equal share of something in turn. This is mainly used by operating system to allocate resources to the processes which require them for their execution in a pre-emptive method. This method consists of small unit of time also called as _Time slice_ or _Quantum_.
+
+This time slice or quantum is set/defined and the ready queue works like circular queue. All processes in this algorithm are kept in the circular queue which is ready queue.  Each new process is added to the tail of the ready/circular queue. By using this algorithm, CPU makes sure, time slices (any natural number) are assigned to each process in equal portions and in circular order, dealing with all process without any priority. Thus the Round Robin algorithm is considered the best pre-emptive scheduling algorithm.
+
+An image describing the algorithm is attached below.
+
+![Round Robin Algorithm]{https://i.ytimg.com/vi/GjrxO-PDPdk/hqdefault.jpg}
 
