@@ -13,3 +13,19 @@ Three Objectives can be observed:
  
  >Ability to evolve - Evolution of OS (Maintainability)
 
+#### 2. What is the kernel of an OS?
+
+A kernel is the part of the operating system that mediates access to system resources. It's responsible for enabling multiple applications to effectively share the hardware by controlling access to CPU, memory, disk I/O, and networking.
+
+An operating system is the kernel plus applications that enable users to get something 
+done (i.e., compiler, text editor, window manager, etc.).
+The types of kernels are 
+ >Monolithic kernels
+ 
+ >Microkernels
+ 
+ >Monolithic kernels vs. microkernels
+ 
+ >Hybrid (or Modular) kernels
+ 
+
