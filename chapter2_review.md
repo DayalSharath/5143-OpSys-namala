@@ -48,10 +48,26 @@ Operating system does the following activities related to multiprogramming.
 
 >CPU scheduling is required.
 
-#### 3. What is a process?
+#### 4. What is a process?
 
  The Program under execution is called a **Process**. For example, A time-shared user program such as a compiler is a process or a word-processing program being run by an individual user on a PC can be a process. A system task, such as sending output to a printer, can also be a process.
  
  A process is the unit of work in a system. Such a system consists of a collection of processes, some of which are operating-system processes (those that execute system code) and the rest of which are user processes (those that execute user code).
+
+#### 5.How is the execution context of a process used by the OS?
+
+ The Operating system contains the process elements which are created and managed by the operating system itself. This allows support for multiple processes. The execution context or process state includes all of the information that the OS needs to manage the process and that the processor needs to execute the process properly. The context includes the context of the various processor registers such as program counters and data registers. It also includes the information of use to the OS, such as the priority of the process and whether the process is waiting for the completion of a particular IO event. A process can be either executing or awaiting execution. The entire state of a process at any instant is constraint in its context.
  
+ 
+ A process goes through a series of process states while execution.
+
+ >*New State:* The process being created.
+>*Running State:* A process is said to be running if it is using the CPU at that particular instant.
+>*Blocked (or waiting) State:* A process is said to be blocked if it is waiting for some event to happen such that as an I/O completion before it can proceed. The process will not run until some external event happens.
+>*Ready State:* A process is said to be ready if it uses a CPU if one were available. A ready state process is runnable but temporarily stopped running to let another process run.
+>*Terminated state:* The process has finished execution.
+
+#### 6. List and briefly explain five storage management responsibilities of a typical OS.
+
+
 
