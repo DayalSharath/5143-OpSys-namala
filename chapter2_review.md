@@ -74,5 +74,12 @@ Operating system does the following activities related to multiprogramming.
 
 #### 6. List and briefly explain five storage management responsibilities of a typical OS.
 
+The five storage management responsibilities of Operating System are as follows.
+
+ >**Process isolation:** The OS must prevent independent processes from interfering with each other’s memory, both data and instructions.
+>**Automatic allocation and management:** Programs should be dynamically allocated across the memory hierarchy as required. Allocation should be transparent to the programmer. Thus, the programmer is relieved of concerns relating to memory limitations, and the OS can achieve efficiency by assigning memory to jobs only as needed.
+ >**Support of modular programming:** Programmers should be able to define program modules, and to create, destroy, and alter the size of modules dynamically. 
+ >**Protection and access control:** Sharing of memory, at any level of the memory hierarchy, creates the potential for one program to address the memory space of another. This is desirable when sharing is needed by particular applications. At other times, it threatens the integrity of programs and even the OS itself. The OS must allow portions of memory to be accessible in various ways by various users.
+ >**Long-term storage:** Many applications programs require means for storing information for extended periods of time, after the computer has been powered down.
 
 
