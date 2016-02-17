@@ -110,5 +110,5 @@ This time slice or quantum is set/defined and the ready queue works like circula
 
 An image describing the algorithm is attached below.
 
-![Round Robin Algorithm]{https://i.ytimg.com/vi/GjrxO-PDPdk/hqdefault.jpg}
+[Round Robin Algorithm](https://i.ytimg.com/vi/GjrxO-PDPdk/hqdefault.jpg)
 
