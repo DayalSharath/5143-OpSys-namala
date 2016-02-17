@@ -48,6 +48,8 @@ Operating system does the following activities related to multiprogramming.
 
 >CPU scheduling is required.
 
+#### 3. What is a process?
 
+ The Program under execution is called a **Process**. For example, A time-shared user program such as a compiler is a process or a word-processing program being run by an individual user on a PC can be a process. A system task, such as sending output to a printer, can also be a process.
  
 
