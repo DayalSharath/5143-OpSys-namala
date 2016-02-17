@@ -91,7 +91,7 @@ The five storage management responsibilities of Operating System are as follows.
 #### 7. Explain the distinction between a real address and a virtual address.
 
 | Physical Address   | Virtual Address |
-|--------------------|-----------------|
+|:------------------:|:---------------:|
 |1. Real addresses refer to hardware addresses of physical memory. | 1. Virtual addresses refer to the virtual location viewed by the process.|
 |2. Real addresses are provided by the hardware. | 2. Virtual (or logical) addresses are provided by the OS kernel |
 |3. Valid real addresses are usually between 0 and some machine specific maximum number. | 3. These addresses may start at zero, but not necessarily. |
@@ -115,7 +115,7 @@ An image describing the algorithm is attached below.
 #### 9. Explain the difference between a monolithic kernel and a microkernel.
 
 | Monolithic Kernel | Micro Kernel |
-|:------------------|-------------:|
+|:-----------------:|:------------:|
 |1. Monolithic kernel is a single large process running entirely in a single address space. It is a single static binary file. All kernel services exist and execute in the kernel address space. The kernel can invoke functions directly. Examples of monolithic kernel based OSs: Unix, Linux. |1. In the Micro kernel type, kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space. All servers are kept separate and run in different address spaces. Servers invoke "services" from each other by sending messages via IPC (Inter-process Communication). This separation has the advantage that if one server fails, other servers can still work efficiently. Examples of microkernel based OSs: Mac OS X and Windows NT. |
 |2. Monolithic kernel is much older than Microkernel, the idea was conceived at the end of the 1980's. |2. Micro kernels are newer than the monolithic kernel. |
 |3. Monolithic kernels generally are bulky. |3. A pure Microkernel has to be small in size, to fit into the processor's L1 cache (first generation microkernel) |
