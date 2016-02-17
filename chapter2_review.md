@@ -90,5 +90,5 @@ The five storage management responsibilities of Operating System are as follows.
 
 #### 7. Explain the distinction between a real address and a virtual address.
 
-
+| Physical Address | Virtual Address |
 
