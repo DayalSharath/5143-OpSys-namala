@@ -114,7 +114,14 @@ An image describing the algorithm is attached below.
 
 #### 9. Explain the difference between a monolithic kernel and a microkernel.
 
-
+| Monolithic Kernel | Micro Kernel |
+|:------------------|-------------:|
+|1. Monolithic kernel is a single large process running entirely in a single address space. It is a single static binary file. All kernel services exist and execute in the kernel address space. The kernel can invoke functions directly. Examples of monolithic kernel based OSs: Unix, Linux. |1. In the Micro kernel type, kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space. All servers are kept separate and run in different address spaces. Servers invoke "services" from each other by sending messages via IPC (Inter-process Communication). This separation has the advantage that if one server fails, other servers can still work efficiently. Examples of microkernel based OSs: Mac OS X and Windows NT. |
+|2. Monolithic kernel is much older than Microkernel, the idea was conceived at the end of the 1980's. |2. Micro kernels are newer than the monolithic kernel. |
+|3. Monolithic kernels generally are bulky. |3. A pure Microkernel has to be small in size, to fit into the processor's L1 cache (first generation microkernel) |
+|4. In Monolithic kernels, the device drivers reside in the kernel space. |4. In Microkernel the device drivers reside in the user space. |
+|5. As the device driver resides in the kernel space, it makes monolithic kernel less secure than microkernel, and failure in the driver may lead to crash |5. Microkernels are more secure than the monolithic kernel, hence used in some military devices. |
+|6. Adding a new feature to a monolithic system means recompiling the whole kernel. |6. In microkernels you can add new features or patches without recompiling. |
 
 #### 10. What is multithreading?
 
