@@ -22,11 +22,11 @@ done (i.e., compiler, text editor, window manager, etc.).
 The types of kernels are 
  >Monolithic kernels
  
- >Microkernels
+ >_Microkernels_
  
- >Monolithic kernels vs. microkernels
+ >_Monolithic kernels vs. microkernels_
  
- >Hybrid (or Modular) kernels
+ >_Hybrid (or Modular) kernels_
  
 ####3. What is multiprogramming?
  
@@ -39,12 +39,12 @@ Operating system does the following activities related to multiprogramming.
  
  Multiprogramming operating system monitors the state of all active programs and system resources using memory management programs to ensures that the CPU is never idle unless there are no jobs
 
-######Advantages:
+*Advantages:*
 
 >High and efficient CPU utilization.
 >User feels that many programs are allotted CPU almost simultaneously.
 
-######Disadvantages
+*Disadvantages:*
 
 >CPU scheduling is required.
 
