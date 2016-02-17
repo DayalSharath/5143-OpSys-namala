@@ -63,9 +63,13 @@ Operating system does the following activities related to multiprogramming.
  A process goes through a series of process states while execution.
 
  >*New State:* The process being created.
+ 
  >*Running State:* A process is said to be running if it is using the CPU at that particular instant.
+ 
  >*Blocked (or waiting) State:* A process is said to be blocked if it is waiting for some event to happen such that as an I/O      completion before it can proceed. The process will not run until some external event happens.
+ 
  >*Ready State:* A process is said to be ready if it uses a CPU if one were available. A ready state process is runnable but temporarily stopped running to let another process run.
+ 
  >*Terminated state:* The process has finished execution.
 
 #### 6. List and briefly explain five storage management responsibilities of a typical OS.
