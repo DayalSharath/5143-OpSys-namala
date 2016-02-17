@@ -33,9 +33,21 @@ The types of kernels are
  When two or more programs are residing in memory for execution at the same time, then sharing the resources to the processes is referred to as the multiprogramming. Multiprogramming assumes a single shared processor and increases CPU utilization by organizing jobs so that the CPU always has one program to execute at every time the program which contains multiple programs is executed.
 
 Operating system does the following activities related to multiprogramming.
- The operating system keeps several jobs in memory at a time.
- This set of jobs has all of the jobs kept in the job pool.
- The operating system picks and begins to execute one of the job in the memory and executes it.
+ >The operating system keeps several jobs in memory at a time.
+ >This set of jobs has all of the jobs kept in the job pool.
+ >The operating system picks and begins to execute one of the job in the memory and executes it.
+ 
+ Multiprogramming operating system monitors the state of all active programs and system resources using memory management programs to ensures that the CPU is never idle unless there are no jobs
+
+######Advantages:
+
+>High and efficient CPU utilization.
+>User feels that many programs are allotted CPU almost simultaneously.
+
+######Disadvantages
+
+>CPU scheduling is required.
+
 
  
 
