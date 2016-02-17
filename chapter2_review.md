@@ -1,7 +1,9 @@
-# Chapter 2 Review Questions
-Name: Shashank Namala
-Course: 5143 Operating Systems
-Date: 01 APR 92
+# Chapter-2 Review Questions
+>Name: _**Shashank Namala**_
+
+>Course: _**5143 Operating Systems**_
+
+>Date: 17 FEB 16
 
 #### 1. What are three objectives of an OS design?
 
