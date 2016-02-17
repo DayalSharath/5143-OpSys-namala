@@ -92,4 +92,11 @@ The five storage management responsibilities of Operating System are as follows.
 
 | Physical Address | Virtual Address |
 |------------------|-----------------|
-
+|1. Real addresses refer to hardware addresses of physical memory. | 1. Virtual addresses refer to the virtual location viewed by the process.|
+|2. Real addresses are provided by the hardware. | 2. Virtual (or logical) addresses are provided by the OS kernel |
+|3. Valid real addresses are usually between 0 and some machine specific maximum number. | 3. These addresses may start at zero, but not necessarily. |
+|4. Not all addresses have to belong to the machine's main memory; other hardware devices can be mapped into the address space. | 4. Space may consist of several segments (i.e., have gaps). |
+|5. OS divides physical memory into partitions. Different partitions can have different sizes. Each partition can be given to a process as virtual address space. | 5. Virtual addresses might be the same as physical addresses or different which is a partition of physical addresses. The case in which virtual addresses are not real, they must be mapped into physical addresses. Mapping is done by Memory Management Unit (MMU). |
+|6. Real address depends on the storage. | 6. Virtual space is limited by size of virtual addresses (not physical addresses)  |
+|7. Physical space doesn’t depend on Real Addresses. | 7. Virtual space is independent of physical memory space. |
+|----------------------------------------------------|-----------------------------------------------------------|
