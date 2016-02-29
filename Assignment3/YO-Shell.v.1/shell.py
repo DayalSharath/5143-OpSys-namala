@@ -226,7 +226,10 @@ class interpreter(cmd.Cmd):
 		for i in range(len(_flag1)):
 			if int(_flag1[i])<=7 and int(_flag1[i])>=0:
 				sum[i]=3
-		if os.path.exists(_flag2) and sum==[3,3,3]:
+			else:
+				print "Syntax Error"
+				return None
+		if os.path.exists(_flag2) and (sum[i]<=3 for w in sum):
 			os.chmod(_flag2,int(_flag1,8))
 			print "Permissions changed successfully"
 		else:
@@ -390,3 +393,4 @@ if __name__ == "__main__":
 		_input=raw_input(os.getcwd()+"$")
 		object=interpreter()
 		object.history(_input)
+
