@@ -7,7 +7,7 @@ Course: _5143 Operating Systems_
 Date: _02 Mar 2016_
 
 
-#### 1.	What is swapping and what is its purpose?
+#### 1.	What does it mean to preempt a process?
 
 To take a resource away from a process. One such resource is the CPU, and in fact preempt often means to move a process from RUNNING state to READY state. The process involuntarily gives up the CPU. When a higher priority process becomes dispatchable, the kernel interrupts its computation and forces the context switch, preempting the currently running process. A process can be preempted at any time if the kernel finds that a higher-priority process is now dispatchable.
 
