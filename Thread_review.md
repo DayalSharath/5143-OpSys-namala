@@ -18,7 +18,7 @@ two threads which helps to maintain atomicity and isolation of the shared memory
 Whereas in thread2.py, the resource -shared memory is accessed by both the threads Aand B at the same time and the modification done 
 to it is parallel which causes redundancy problem.
 
-	In Thrread2.py, the atomicity of the shared data is compromised whereas in thread3.py thsame property is satisfied using LOCKS.
+In Thrread2.py, the atomicity of the shared data is compromised whereas in thread3.py thsame property is satisfied using LOCKS.
 	
 ###### 3. Comment out the join statements at the bottom of the program and describe what happens.
 
